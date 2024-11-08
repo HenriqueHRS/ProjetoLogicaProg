@@ -1,0 +1,118 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: none;
+  background-image: url("../img/istockphoto-1485043284-612x612.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  gap: 10px;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.container {
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+  align-items: start;
+  height: 16rem;
+  width: 45vw;
+  background-color: #0000006c;
+  color: #fff;
+  padding: 30px 60px 60px 60px;
+  border: none;
+  border-radius: 4px;
+  gap: 5px;
+}
+.nome {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.4em;
+  gap: 10px;
+}
+.cpf {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.1em;
+  padding-right: 50px;
+  color: #fff;
+  gap: 10px;
+}
+.tc {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  width: 100%;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  height: 2rem;
+  background-color: #00857e;
+}
+.container-dscr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: first baseline;
+  background-color: #0000006c;
+  color: #fff;
+  height: 90vh;
+  width: 50vw;
+  border-radius: 10px;
+  border: none;
+}
+.Descriçao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50vw;
+  height: 10vw;
+  justify-content: center;
+}
+.Descriçao textarea {
+  display: flex;
+  text-align: start;
+  padding: 10px;
+  width: 45vw;
+  height: 8vw;
+  border: none;
+  outline: 0;
+  border-radius: 10px;
+  background-color: #0000006c;
+  color: #fff;
+}
+.Descriçao button {
+  display: flex;
+  width: 46vw;
+  height: 1.9vw;
+  flex-direction: column;
+  align-items: center;
+  background-color: #40cfc6;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: medium;
+}
+.Descrição button:hover {
+  background-color: #00857e;
+}
+.avalie {
+  display: flex;
+  flex-direction: column;
+
+}
+.ex {
+  display: flex;
+  flex-direction: row;
+  border-radius: 100px;
+}
+.ex , input{
+  cursor: pointer;
+  
+}

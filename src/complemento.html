@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>complemento</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./css/stylesheet.css"
+      media="screen"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./css/complemento.module.css"
+      media="screen"
+    />
+    
+  </head>
+  <body>
+    <div class="container">
+        <form class="form-container-complemento">
+          <h1>Complementar cadastro</h1>
+          <div class="input-forms-complemento">
+            <input type="number" placeholder="CPF ou CNPJ" id="cpf" />
+            <input type="email" placeholder="Email de resgate" id="email" />
+            <input type="tel" placeholder="WhatsApp" id="celuar" />
+            <input type="tel" placeholder="Telefone" id="tel" />
+            <input type="text" placeholder="Endereço" id="end" />
+            <input type="date" placeholder="Data de Nascimento" id="dtn" />
+          </div>
+          <div class="input-btn">
+            <input type="button" value="Finalizar" onclick="logar(); return false" />
+            <span>ou</span>
+            <a href="login.html"> Cancelar</a>
+          </div>
+        </form>
+      </div>
+
+  </body>
+</html>
